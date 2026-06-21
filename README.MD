@@ -30,6 +30,15 @@
 
 ---
 
-## Adding the API Key
+## Adding Your API Key 
+Copy the example configuration:
 
-Create a .env with the text from **.env.example** text and just change it to your **API KEY**
+```bash
+cp .env.example .env
+```
+
+Edit the .env file and paste your actual Steam API key:
+
+```
+STEAM_KEY=YOUR_ACTUAL_API_KEY_HERE
+```
